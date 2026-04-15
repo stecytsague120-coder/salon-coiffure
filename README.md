@@ -1,16 +1,80 @@
-# React + Vite
+# Yarro's African Braiding
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Landing page premium et responsive pour un salon de tresses africaines situe a Spring, Texas.
 
-Currently, two official plugins are available:
+## Apercu
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- Stack : React + Vite
+- Objectif : convertir les visiteurs en reservations WhatsApp et appels
+- Design : premium, feminin, moderne, optimise mobile / tablette / ordinateur
+- URL de production : `https://yarros-african-braiding.vercel.app`
 
-## React Compiler
+## Fonctionnalites
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- Hero immersif avec photo reelle du salon
+- CTA WhatsApp et appel direct
+- Cartes services avec tarifs
+- Galerie avec vraies photos du salon
+- Section "How to book"
+- Carte Google Maps integree
+- Sticky CTA mobile
+- SEO local pour Houston / Spring TX
+- Donnees structurees `schema.org`
 
-## Expanding the ESLint configuration
+## Images du projet
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Les images utilisees dans cette version proviennent du dossier :
+
+`This PC > Pictures > yarro 's braids`
+
+Elles sont copiees dans :
+
+`public/yarros-braids/`
+
+## Lancer le projet en local
+
+```bash
+npm install
+npm run dev
+```
+
+Le site sera disponible sur :
+
+`http://localhost:5173`
+
+## Build de production
+
+```bash
+npm run build
+npm run preview
+```
+
+## Structure utile
+
+- `src/App.jsx` : contenu principal de la landing page
+- `src/App.css` : design, responsive, hero, sections, CTA
+- `src/index.css` : base globale
+- `index.html` : SEO, meta tags, Open Graph, JSON-LD
+- `public/yarros-braids/` : images du salon
+
+## Personnalisation rapide
+
+Si tu veux adapter ce projet pour un autre salon, modifie surtout :
+
+- le nom de la marque dans `src/App.jsx` et `index.html`
+- le numero WhatsApp / telephone
+- l'adresse
+- les tarifs et descriptions
+- les images dans `public/yarros-braids/`
+
+## Deploiement
+
+Le projet est deployee sur Vercel.
+
+Alias public actuel :
+
+`https://yarros-african-braiding.vercel.app`
+
+## Sauvegarde GitHub
+
+Le projet est versionne dans le depot GitHub lie a ce dossier. Les fichiers du site peuvent etre commits et pushes directement depuis cette copie locale.
